@@ -1,0 +1,49 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "PersonalWebSite"
+        },
+        "location": { 
+            "value": "Central US"
+        },   
+        "sku": {
+            "value": "Free"
+        },
+        "skucode": {
+            "value": "Free"
+        },
+        "repositoryUrl": {
+            "value": "https://github.com/Gpzim98/site"
+        },
+        "branch": {
+            "value": "master"
+        },
+        "repositoryToken": {
+            "value": "tokenhere" 
+        },
+        "appLocation": {
+            "value": "/"
+        },
+        "apiLocation": {
+            "value": ""
+        },
+        "appArtifactLocation": {
+            "value": "src"
+        },
+        "resourceTags": {
+            "value": {
+                "Environment": "Development",
+                "Project": "Testing SWA with ARM",
+                "ApplicationName": "myfirstswadeployment"
+            }
+        },
+        "appSettings": {
+            "value": {
+                "MY_APP_SETTING1": "value 1",
+                "MY_APP_SETTING2": "value 2"
+            }
+        }
+    }
+}
