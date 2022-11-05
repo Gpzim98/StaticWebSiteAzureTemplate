@@ -15,13 +15,13 @@
             "value": "Free"
         },
         "repositoryUrl": {
-            "value": "https://github.com/Gpzim98/site"
+            "value": "https://github.com/Gpzim98/StaticWebSiteAzureTemplate"
         },
         "branch": {
-            "value": "master"
+            "value": "main"
         },
         "repositoryToken": {
-            "value": "tokenhere" 
+            "value": "" 
         },
         "appLocation": {
             "value": "/"

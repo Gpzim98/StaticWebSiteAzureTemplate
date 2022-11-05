@@ -5,7 +5,7 @@ set -e
 TENANT=""
 SUBSCRIPTION=""
 LOCATION="westeurope"
-RESOURCEGROUP="personalwebsite"
+RESOURCEGROUP="testTutorialAzureStaticWebSite"
 
 do_login()
 {
